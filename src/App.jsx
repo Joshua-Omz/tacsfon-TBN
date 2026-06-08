@@ -28,7 +28,7 @@ const data = [
   ]},
   { code: "AGY", name: "Agronomy", skills: [
     { skill: "Geographic Information Systems", course: "Fundamentals of GIS", url: "https://www.coursera.org/learn/gis", provider: "UC Davis" },
-    { skill: "Remote Sensing / Google Earth Engine", course: "Spatial Analysis & Satellite Imagery in a GIS", url: "https://www.coursera.org/specializations/gis-mapping-spatial-analysis-satellite-imagery-in-a-gis", provider: "Esri" },
+    { skill: "Remote Sensing / Google Earth Engine", course: "Spatial Analysis & Satellite Imagery in a GIS", url: "https://www.coursera.org/learn/start-remote-sensing", provider: "Esri" },
     { skill: "3D Modelling & Visualization", course: "Intro to 3D Printing & Additive Manufacturing", url: "https://www.coursera.org/learn/3d-printing-software", provider: "Uni. of Illinois" },
     { skill: "Field Data Collection Apps", course: "Data Collection & Processing with Python", url: "https://www.coursera.org/learn/python-data", provider: "Uni. of Michigan" },
   ]},
@@ -40,7 +40,7 @@ const data = [
   { code: "APH", name: "Applied Physics", skills: [
     { skill: "Data Analysis", course: "Data Analysis with Python", url: "https://www.coursera.org/learn/data-analysis-with-python", provider: "IBM" },
     { skill: "Product Management", course: "Digital Product Management", url: "https://www.coursera.org/learn/uva-darden-digital-product-management", provider: "Uni. of Virginia" },
-    { skill: "Social Media Marketing", course: "Social Media Marketing", url: "https://www.coursera.org/professional-certificates/meta-social-media-marketing", provider: "Meta" },
+    { skill: "Social Media Marketing", course: "Social Media Marketing", url: "https://www.coursera.org/professional-certificates/coursera-social-media-marketing", provider: "Meta" },
   ]},
   { code: "ARC", name: "Architecture", skills: [
     { skill: "AutoCAD", course: "AutoCAD Foundation Mastery", url: "https://www.coursera.org/specializations/autocad-foundation-core-drafting-mastery", provider: "Autodesk" },
@@ -262,7 +262,7 @@ const data = [
     { skill: "Blockchain & Crypto Platforms", course: "Blockchain Basics", url: "https://www.coursera.org/learn/blockchain-basics", provider: "Uni. at Buffalo" },
   ]},
   { code: "STAT", name: "Statistics", skills: [
-    { skill: "Power BI", course: "Data Analysis & Visualization with Power BI", url: "https://www.coursera.org/learn/data-analysis-visualization-power-bi", provider: "Microsoft" },
+    { skill: "Power BI", course: "Data Analysis & Visualization with Power BI", url: "https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst", provider: "Microsoft" },
     { skill: "Python / R", course: "Statistics with Python Specialization", url: "https://www.coursera.org/specializations/statistics-with-python", provider: "Uni. of Michigan" },
     { skill: "SQL", course: "Databases and SQL for Data Science", url: "https://www.coursera.org/learn/sql-data-science", provider: "IBM" },
     { skill: "Data Science", course: "IBM Data Science Professional Certificate", url: "https://www.coursera.org/professional-certificates/ibm-data-science", provider: "IBM" },
@@ -587,7 +587,7 @@ export default function App() {
         marginTop: 8,
         background: G.white,
       }}>
-        tacsion FUTA Chapter · Digital Skills Guide · Courses subject to Coursera availability
+        tacsfon FUTA Chapter · Digital Skills Guide · Courses subject to Coursera availability
       </div>
     </div>
   );
