@@ -316,10 +316,13 @@ export default function App() {
   return (
     <div style={{ minHeight: "100vh", background: G.paler, fontFamily: "'Segoe UI', system-ui, sans-serif", color: G.text }}>
       <style>{`
+        .mobile-back-btn { display: none; }
         @media (max-width: 768px) {
           .responsive-container { flex-direction: column !important; }
-          .responsive-sidebar { width: 100% !important; min-width: 100% !important; max-height: 40vh !important; }
-          .responsive-detail { border-left: none !important; border-top: 2px solid ${G.pale} !important; }
+          .responsive-sidebar { width: 100% !important; min-width: 100% !important; max-height: none !important; border-right: none !important; }
+          .responsive-sidebar.has-selection { display: none !important; }
+          .responsive-detail { border-left: none !important; border-top: none !important; padding: 16px 12px !important; }
+          .mobile-back-btn { display: inline-flex; align-items: center; gap: 6px; background: ${G.white}; color: ${G.main}; border: 1.5px solid ${G.border}; padding: 8px 14px; border-radius: 8px; font-weight: 600; font-size: 14px; margin-bottom: 20px; cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
         }
       `}</style>
 
@@ -383,7 +386,7 @@ export default function App() {
       <div className="responsive-container" style={{ display: "flex", maxWidth: 1080, margin: "0 auto" }}>
 
         {/* Dept grid / sidebar */}
-        <div className="responsive-sidebar" style={{
+        <div className={`responsive-sidebar ${dept ? 'has-selection' : ''}`} style={{
           width: dept ? 220 : "100%",
           minWidth: dept ? 220 : undefined,
           padding: "16px 14px",
@@ -457,6 +460,14 @@ export default function App() {
             overflowY: "auto",
             maxHeight: "calc(100vh - 200px)",
           }}>
+            {/* Mobile Back Button */}
+            <button 
+              className="mobile-back-btn" 
+              onClick={() => setSelected(null)}
+            >
+              <span style={{ fontSize: 16 }}>←</span> Back to Departments
+            </button>
+
             {/* Dept header */}
             <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 18 }}>
               <span style={{
