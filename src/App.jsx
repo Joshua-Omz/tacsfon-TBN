@@ -43,7 +43,7 @@ const data = [
     { skill: "Social Media Marketing", course: "Social Media Marketing", url: "https://www.coursera.org/professional-certificates/coursera-social-media-marketing", provider: "Meta" },
   ]},
   { code: "ARC", name: "Architecture", skills: [
-    { skill: "AutoCAD", course: "AutoCAD Foundation Mastery", url: "https://www.coursera.org/specializations/autocad-foundation-core-drafting-mastery", provider: "Autodesk" },
+    { skill: "AutoCAD", course: "Master AutoCAD 3D: Create, Model & Transform Designs", url: "https://www.coursera.org/learn/master-autocad-3d-create-model-transform-designs", provider: "EDUCBA" },
     { skill: "Revit / BIM", course: "BIM Fundamentals for Engineers", url: "https://www.coursera.org/learn/bim-fundamentals-for-engineers", provider: "Autodesk" },
     { skill: "Rendering & Visualization", course: "Intro to 3D Printing & Additive Manufacturing", url: "https://www.coursera.org/learn/3d-printing-software", provider: "Uni. of Illinois" },
   ]},
@@ -61,7 +61,7 @@ const data = [
     { skill: "Data Visualization", course: "Data Visualization with Python", url: "https://www.coursera.org/learn/python-for-data-visualization", provider: "IBM" },
   ]},
   { code: "BDG", name: "Building", skills: [
-    { skill: "AutoCAD", course: "AutoCAD Fundamentals", url: "https://www.coursera.org/learn/autodesk-autocad", provider: "Autodesk" },
+    { skill: "AutoCAD", course: "Master AutoCAD 3D: Create, Model & Transform Designs", url: "https://www.coursera.org/learn/master-autocad-3d-create-model-transform-designs", provider: "EDUCBA" },
     { skill: "Revit / SketchUp", course: "BIM Fundamentals for Engineers", url: "https://www.coursera.org/learn/bim-fundamentals-for-engineers", provider: "Autodesk" },
   ]},
   { code: "BIO", name: "Biology", skills: [
@@ -72,7 +72,7 @@ const data = [
   ]},
   { code: "BME", name: "Biomedical Engineering", skills: [
     { skill: "Graphics Design", course: "Graphic Design Specialization", url: "https://www.coursera.org/specializations/graphic-design", provider: "CalArts" },
-    { skill: "AutoCAD / 3D Design", course: "AutoCAD Fundamentals", url: "https://www.coursera.org/learn/autodesk-autocad", provider: "Autodesk" },
+    { skill: "AutoCAD / 3D Design", course: "Master AutoCAD 3D: Create, Model & Transform Designs", url: "https://www.coursera.org/learn/master-autocad-3d-create-model-transform-designs", provider: "EDUCBA" },
     { skill: "Data Analysis", course: "Data Analysis with Python", url: "https://www.coursera.org/learn/data-analysis-with-python", provider: "IBM" },
     { skill: "Python / C++", course: "Python for Everybody", url: "https://www.coursera.org/learn/python", provider: "Uni. of Michigan" },
   ]},
@@ -104,7 +104,7 @@ const data = [
     { skill: "Data Analysis", course: "Data Analysis with Python", url: "https://www.coursera.org/learn/data-analysis-with-python", provider: "IBM" },
   ]},
   { code: "CVE", name: "Civil Engineering", skills: [
-    { skill: "AutoCAD / Civil 3D", course: "AutoCAD Fundamentals", url: "https://www.coursera.org/learn/autodesk-autocad", provider: "Autodesk" },
+    { skill: "AutoCAD / Civil 3D", course: "Master AutoCAD 3D: Create, Model & Transform Designs", url: "https://www.coursera.org/learn/master-autocad-3d-create-model-transform-designs", provider: "EDUCBA" },
     { skill: "Revit / BIM", course: "BIM Fundamentals for Engineers", url: "https://www.coursera.org/learn/bim-fundamentals-for-engineers", provider: "Autodesk" },
   ]},
   { code: "CYS", name: "Cyber Security", skills: [
@@ -124,7 +124,7 @@ const data = [
     { skill: "Graphic Design & Content Creation", course: "Graphic Design Specialization", url: "https://www.coursera.org/specializations/graphic-design", provider: "CalArts" },
   ]},
   { code: "ESM", name: "Estate Management", skills: [
-    { skill: "AutoCAD", course: "AutoCAD Fundamentals", url: "https://www.coursera.org/learn/autodesk-autocad", provider: "Autodesk" },
+    { skill: "AutoCAD", course: "Master AutoCAD 3D: Create, Model & Transform Designs", url: "https://www.coursera.org/learn/master-autocad-3d-create-model-transform-designs", provider: "EDUCBA" },
     { skill: "Data Analysis", course: "Data Analysis with Python", url: "https://www.coursera.org/learn/data-analysis-with-python", provider: "IBM" },
   ]},
   { code: "EWM", name: "Environmental & Water Management", skills: [
@@ -153,7 +153,7 @@ const data = [
   ]},
   { code: "IDD", name: "Industrial Design", skills: [
     { skill: "3D Modelling & Digital Sculpting", course: "Intro to 3D Printing & Additive Manufacturing", url: "https://www.coursera.org/learn/3d-printing-software", provider: "Uni. of Illinois" },
-    { skill: "CAD & CAID Software", course: "AutoCAD Fundamentals", url: "https://www.coursera.org/learn/autodesk-autocad", provider: "Autodesk" },
+    { skill: "CAD & CAID Software", course: "Master AutoCAD 3D: Create, Model & Transform Designs", url: "https://www.coursera.org/learn/master-autocad-3d-create-model-transform-designs", provider: "EDUCBA" },
   ]},
   { code: "IFS", name: "Information System", skills: [
     { skill: "Programming Languages", course: "Python for Everybody", url: "https://www.coursera.org/learn/python", provider: "Uni. of Michigan" },
@@ -170,7 +170,7 @@ const data = [
     { skill: "Virtualization Software", course: "Google Cloud Fundamentals", url: "https://www.coursera.org/learn/gcp-fundamentals", provider: "Google" },
   ]},
   { code: "IPE", name: "Industrial & Production Engineering", skills: [
-    { skill: "AutoCAD / SOLIDWORKS", course: "AutoCAD Fundamentals", url: "https://www.coursera.org/learn/autodesk-autocad", provider: "Autodesk" },
+    { skill: "AutoCAD / SOLIDWORKS", course: "Master AutoCAD 3D: Create, Model & Transform Designs", url: "https://www.coursera.org/learn/master-autocad-3d-create-model-transform-designs", provider: "EDUCBA" },
     { skill: "MATLAB / Python", course: "Introduction to Programming with MATLAB", url: "https://www.coursera.org/learn/matlab", provider: "Vanderbilt" },
   ]},
   { code: "LIS", name: "Library & Information Science", skills: [
@@ -196,15 +196,15 @@ const data = [
     { skill: "Robotics Software (ROS)", course: "Modern Robotics Specialization", url: "https://www.coursera.org/specializations/modernrobotics", provider: "Northwestern" },
   ]},
   { code: "MEE", name: "Mechanical Engineering", skills: [
-    { skill: "AutoCAD", course: "AutoCAD Fundamentals", url: "https://www.coursera.org/learn/autodesk-autocad", provider: "Autodesk" },
-    { skill: "SolidWorks / CAD/CAM", course: "AutoCAD Foundation Mastery", url: "https://www.coursera.org/specializations/autocad-foundation-core-drafting-mastery", provider: "Autodesk" },
+    { skill: "AutoCAD", course: "Master AutoCAD 3D: Create, Model & Transform Designs", url: "https://www.coursera.org/learn/master-autocad-3d-create-model-transform-designs", provider: "EDUCBA" },
+    { skill: "SolidWorks / CAD/CAM", course: "Master AutoCAD 3D: Create, Model & Transform Designs", url: "https://www.coursera.org/learn/master-autocad-3d-create-model-transform-designs", provider: "EDUCBA" },
   ]},
   { code: "MLS", name: "Medical Laboratory Science", skills: [
     { skill: "Laboratory Information Systems", course: "Health Informatics Specialization", url: "https://www.coursera.org/specializations/health-informatics", provider: "Johns Hopkins" },
     { skill: "Digital Microscopy / Biomedical Informatics", course: "AI for Medical Diagnosis", url: "https://www.coursera.org/learn/ai-for-medical-diagnosis", provider: "deeplearning.ai" },
   ]},
   { code: "MME", name: "Metallurgical & Materials Engineering", skills: [
-    { skill: "AutoCAD / SolidWorks", course: "AutoCAD Fundamentals", url: "https://www.coursera.org/learn/autodesk-autocad", provider: "Autodesk" },
+    { skill: "AutoCAD / SolidWorks", course: "Master AutoCAD 3D: Create, Model & Transform Designs", url: "https://www.coursera.org/learn/master-autocad-3d-create-model-transform-designs", provider: "EDUCBA" },
     { skill: "MATLAB / Python", course: "Introduction to Programming with MATLAB", url: "https://www.coursera.org/learn/matlab", provider: "Vanderbilt" },
     { skill: "Data Analysis", course: "Data Analysis with Python", url: "https://www.coursera.org/learn/data-analysis-with-python", provider: "IBM" },
     { skill: "3D Printing / Additive Manufacturing", course: "Intro to 3D Printing & Additive Manufacturing", url: "https://www.coursera.org/learn/3d-printing-software", provider: "Uni. of Illinois" },
@@ -243,7 +243,7 @@ const data = [
     { skill: "Microsoft Power BI", course: "Data Analysis and Visualization with Power BI", url: "https://www.coursera.org/learn/data-analysis-and-visualization-with-power-bi", provider: "Microsoft" },
   ]},
   { code: "QSV", name: "Quantity Surveying", skills: [
-    { skill: "AutoCAD / PlanSwift", course: "AutoCAD Fundamentals", url: "https://www.coursera.org/learn/autodesk-autocad", provider: "Autodesk" },
+    { skill: "AutoCAD / PlanSwift", course: "Master AutoCAD 3D: Create, Model & Transform Designs", url: "https://www.coursera.org/learn/master-autocad-3d-create-model-transform-designs", provider: "EDUCBA" },
     { skill: "Excel", course: "Excel Skills for Business Specialization", url: "https://www.coursera.org/specializations/excel", provider: "Macquarie University" },
   ]},
   { code: "RSG", name: "Remote Sensing & GIS", skills: [
@@ -269,11 +269,11 @@ const data = [
   ]},
   { code: "SVG", name: "Surveying & Geoinformatics", skills: [
     { skill: "ArcGIS / Google Earth Engine", course: "Fundamentals of GIS", url: "https://www.coursera.org/learn/gis", provider: "UC Davis" },
-    { skill: "AutoCAD / MicroStation", course: "AutoCAD Fundamentals", url: "https://www.coursera.org/learn/autodesk-autocad", provider: "Autodesk" },
+    { skill: "AutoCAD / MicroStation", course: "Master AutoCAD 3D: Create, Model & Transform Designs", url: "https://www.coursera.org/learn/master-autocad-3d-create-model-transform-designs", provider: "EDUCBA" },
     { skill: "Geodetic Calculation", course: "Geospatial and Environmental Analysis", url: "https://www.coursera.org/learn/spatial-analysis", provider: "UC Davis" },
   ]},
   { code: "URP", name: "Urban & Regional Planning", skills: [
-    { skill: "AutoCAD", course: "AutoCAD Fundamentals", url: "https://www.coursera.org/learn/autodesk-autocad", provider: "Autodesk" },
+    { skill: "AutoCAD", course: "Master AutoCAD 3D: Create, Model & Transform Designs", url: "https://www.coursera.org/learn/master-autocad-3d-create-model-transform-designs", provider: "EDUCBA" },
     { skill: "GIS Map Reading", course: "Fundamentals of GIS", url: "https://www.coursera.org/learn/gis", provider: "UC Davis" },
     { skill: "Data Analysis", course: "Data Analysis with Python", url: "https://www.coursera.org/learn/data-analysis-with-python", provider: "IBM" },
   ]},
