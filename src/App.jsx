@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 
 // tacsion logo SVG — recreated from the PDF: lightning bolt + "tacsion" wordmark
 const TacsionLogo = ({ size = 48 }) => (
@@ -296,7 +296,29 @@ const G = {
 
 export default function App() {
   const [search, setSearch] = useState("");
-  const [selected, setSelected] = useState(null);
+  const [selected, setSelected] = useState(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      return params.get("dept") || null;
+    }
+    return null;
+  });
+
+  useEffect(() => {
+    const handlePopState = (e) => {
+      setSelected(e.state?.dept || null);
+    };
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, []);
+
+  const changeSelection = (code) => {
+    if (code === selected) code = null;
+    if (code !== selected) {
+      window.history.pushState({ dept: code }, "", code ? `?dept=${code}` : window.location.pathname);
+      setSelected(code);
+    }
+  };
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase();
@@ -364,7 +386,7 @@ export default function App() {
         <div style={{ maxWidth: 500, margin: "0 auto", position: "relative" }}>
           <input
             value={search}
-            onChange={e => { setSearch(e.target.value); setSelected(null); }}
+            onChange={e => { setSearch(e.target.value); changeSelection(null); }}
             placeholder="Search dept, skill, course or provider…"
             style={{
               width: "100%",
@@ -408,7 +430,7 @@ export default function App() {
             {filtered.map(d => (
               <button
                 key={d.code}
-                onClick={() => setSelected(selected === d.code ? null : d.code)}
+                onClick={() => changeSelection(d.code)}
                 style={{
                   background: selected === d.code ? G.main : G.white,
                   border: `1.5px solid ${selected === d.code ? G.main : G.border}`,
@@ -463,7 +485,7 @@ export default function App() {
             {/* Mobile Back Button */}
             <button 
               className="mobile-back-btn" 
-              onClick={() => setSelected(null)}
+              onClick={() => changeSelection(null)}
             >
               <span style={{ fontSize: 16 }}>←</span> Back to Departments
             </button>
